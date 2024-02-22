@@ -1,2 +1,2 @@
 # khs-eample-project
-i ma learning something
+i am learning something
