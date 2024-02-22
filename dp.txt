@@ -1,0 +1,96 @@
+ its a culture adopting in your orgainization that would incerease or improves ability to delivery their applications
+
+devops AS  a CI/CD continous integration continous delivery 
+improving delivery by ensuring that the following steps 
+automation
+quality
+monitoring
+testing
+
+----->devops is a process of improving the apppliction delivery by ensuring that there is proper autmation in place quality that maintained continious monitoring
+and finnaly there is continious testing  in place "final goal is to fasten the application delivery"
+
+why devops?
+ 
+----> To improve the process of delivery to overcome the multiple teams like system admin,build and release engineer,server admin 
+----> 
+
+hypervisior  physical server logical server cloud 
+
+
+letsus consider aws if i need to create a  vm that is using ec2 so for 1 time its okay if i need to create fo 100 times then we will using api 
+which consists of script that make call or communcation with the aws dashboard without opening it   the script will be return by devops engineer
+or sys admin to communicate with api we need to write a script that is aws cli or aws api(boto3) teraform or aws cft by doing this we had reached efficiency 
+and achived devops startegy   ec-2 and teraform  based on iaas and aws has (AWS CDK)    
+ 
+the oragnazation opting hybrid cloud we will use terraform 
+
+commands inn shell scripting
+
+df -h for disk space
+
+free -g for memory
+
+nproc 
+
+set -x to represnt the commands used during the output that when we are executed in place of echo 
+ps -ef says that what are the processes running on the current machine 
+if i need the id of a certaion process trhenb i will use 
+ps -ef | grep "amazon"
+it returns all the amazon process running on the amazon 
+
+./test.sh | grep 1
+
+date | echo "date is"
+pipe is used to link two commands but here date commands sends to std in so pipe doesnot pipe will not recive the output from std in
+
+
+if a manager asks dont give me the entire information of the amazon but give me about single sort so we will use 
+
+command is awk 
+
+how to use awk command 
+ps -ef | grep amazon |awk -F" " '{print $3}'
+
+
+set -e it will be terminated when there is a error
+
+at it will not work on the pipe command errors
+if we need to rectify that error 
+set v-o pipefail
+
+
+curl retrives displays the information present in the log files 
+
+example curll https://github.com/logpai/loghub/blob/master/Android/Android_2k.log | grep ERROR it will display the error present in the log file 
+
+wget will download  after download we will get the log file but curl just displays the log file without downloading 
+
+
+
+shell scripting project with github integartion 
+There are Two ways to talk to applications 
+1. Api
+2. Cli
+
+to access through th eapplication we use 
+curl or
+grpc           using http
+
+
+
+
+
+
+
+git and github 
+svn
+cvs
+git
+
+wahstis the differnce between centralized and distriibuted version 
+control system
+
+
+
+
