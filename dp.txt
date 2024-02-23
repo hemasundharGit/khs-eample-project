@@ -97,3 +97,5 @@ to create a public or a private key in linux we use command :
 
 for creating a branch
 git checkout -b "----------"
+
+git branch
