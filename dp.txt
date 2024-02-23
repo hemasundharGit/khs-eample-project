@@ -99,3 +99,6 @@ for creating a branch
 git checkout -b "----------"
 
 git branch
+
+to leave from the main branch we use the following command 
+git checkout main 
