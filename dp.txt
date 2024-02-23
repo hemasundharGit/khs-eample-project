@@ -96,7 +96,3 @@ to create a public or a private key in linux we use command :
               ssh-keygen -t rsa          
 
 
-
-
-
-	      om sai ram
