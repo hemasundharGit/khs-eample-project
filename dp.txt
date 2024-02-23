@@ -102,3 +102,15 @@ git branch
 
 to leave from the main branch we use the following command 
 git checkout main 
+
+
+to merge the branches
+git merge
+git rebase
+git cherry-pick
+
+git cherry-pick : we are picking the commits 
+git cherry-pick  "commit id" from the brach "git log division"
+cherry-pick is used for one or two commits 
+
+if a organization has 60000 commits we use "git merge" or "git rebase"
