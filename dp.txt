@@ -95,4 +95,5 @@ control system
 to create a public or a private key in linux we use command :
               ssh-keygen -t rsa          
 
-
+for creating a branch
+git checkout -b "----------"
