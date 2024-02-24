@@ -109,8 +109,13 @@ git merge
 git rebase
 git cherry-pick
 
+
 git cherry-pick : we are picking the commits 
 git cherry-pick  "commit id" from the brach "git log division"
 cherry-pick is used for one or two commits 
 
 if a organization has 60000 commits we use "git merge" or "git rebase"
+
+differnce between git  rebase and git merge is if we need to do in linear way we need to use git-rebase
+we need to in non-linear way we use git-merge
+
