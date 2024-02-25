@@ -116,3 +116,4 @@ if a organization has 60000 commits we use "git merge" or "git rebase"
 differnce between git  rebase and git merge is if we need to do in linear way we need to use git-rebase
 we need to in non-linear way we use git-merge
 
+hoisting my first nodejs application in aws ec2=elastic compute cloud its a kind of virtual cloud in which we use in organizations for increase the rate of workflow with minimum costs we will learn it in future 
