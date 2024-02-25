@@ -88,7 +88,6 @@ git
 wahstis the differnce between centralized and distriibuted version 
 control system
 
-
 to create a public or a private key in linux we use command :
               ssh-keygen -t rsa          
 
