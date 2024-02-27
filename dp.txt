@@ -118,5 +118,9 @@ hoisting my first nodejs application in aws ec2=elastic compute cloud its a kind
 
 Aws services  used in Devops 
 EC2-elastic compute cloud
-VPC-virtual private cloud for securing EC2 security rules,cidr,inbound and outbound rules
+VPC-virtual private cloud for securing EC2 with security rules,cidr,inbound and outbound rules
+EBS(volume)
+S3(storage)
+
+
 
