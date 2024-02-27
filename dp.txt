@@ -120,7 +120,14 @@ Aws services  used in Devops
 EC2-elastic compute cloud
 VPC-virtual private cloud for securing EC2 with security rules,cidr,inbound and outbound rules
 EBS(volume)
-S3(storage)
+S3(storage) is default encrypted
+IAM(identity and access mangement to give personalized access for employees in organization)
+cloud watch(monitoring)
+lambda serverless
 
+cloud build services for cicd or some x
+aws code pipe line
+aws code build
+aws code deploy
 
 
