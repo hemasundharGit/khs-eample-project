@@ -172,7 +172,7 @@ puppet
 pull mechanism model
 master slave architecture
 master is master branch and instances take it as slaves 
-
+puppet language
 
 
 
@@ -182,6 +182,19 @@ agent less model
 password less autentication
 inventory file
 dynamic inventory
+windows,linux
+simple(yaml)language 
+we can write own ansible modules
+ansible galaxy we can share the modules with others
 
+ansible uses python
+supports both windows "winrm"
+linux "ssh"
+
+
+Disadvantages:
+windows has little problem with ansible
+ansible not good with debugging
+ansible performance is some what slow
 
 
