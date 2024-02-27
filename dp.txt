@@ -125,9 +125,29 @@ IAM(identity and access mangement to give personalized access for employees in o
 cloud watch(monitoring)
 lambda serverless
 
-cloud build services for cicd or some x
+cloud build services that are  cicd on aws
 aws code pipe line
 aws code build
 aws code deploy
+
+AWS configuration services
+
+AWS Billing and costing
+
+Aws "kms(Key amangement service)" for sercurity for all the services examplke like certificate rotations
+
+cloud trail "information and logs and we will get api activity"
+
+AWS EKS ( Elastic Kubernetis Service )
+
+Fargate,ECS
+
+EKS VS ECS
+both are container orakaestic solution 
+EKS is managed kubernetis service
+ECS aws built by its own 
+
+Elk (Elastic log Serach)
+
 
 
