@@ -150,4 +150,38 @@ ECS aws built by its own
 Elk (Elastic log Serach)
 
 
+configuration management
+let us take a system admin and an on permises server if i need to update all these 50 servers
+upgrades
+secure patents
+installation
+
+in old days we use scripts for handling this but it becomes complex so to overcome these  
+they moved to cloud the problem becomed very bigger because they created 10x greather than before 
+the concept is configuration management 
+tools like
+puppet
+chef
+ansible
+salt 
+
+but ansible became popular most people use ansible in devops journey 
+
+example of 10 instances
+puppet
+pull mechanism model
+master slave architecture
+master is master branch and instances take it as slaves 
+
+
+
+
+ansible
+push mechanism model
+agent less model 
+password less autentication
+inventory file
+dynamic inventory
+
+
 
