@@ -1,4 +1,4 @@
- its a culture adopting in your orgainization that would incerease or improves ability to delivery their applications
+Its a culture adopting in your orgainization that would incerease or improves ability to delivery their applications
 
 devops AS  a CI/CD continous integration continous delivery 
 improving delivery by ensuring that the following steps 
