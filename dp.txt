@@ -197,4 +197,7 @@ windows has little problem with ansible
 ansible not good with debugging
 ansible performance is some what slow
 
+managing ec2 instance using ansible 
+push mechanism 
+i will write a script i will push that script at a tome into two instances so at a time upadte will be possible through ansible in that i am using in windows
 
