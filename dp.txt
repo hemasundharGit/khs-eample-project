@@ -201,3 +201,4 @@ managing ec2 instance using ansible
 push mechanism 
 i will write a script i will push that script at a tome into two instances so at a time upadte will be possible through ansible in that i am using in windows
 
+its easy to install ansible in linux because linux provides the correct environment better than windows or some x platforms 
