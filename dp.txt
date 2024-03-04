@@ -201,3 +201,26 @@ push mechanism
 i will write a script i will push that script at a tome into two instances so at a time upadte will be possible through ansible in that i am using in windows
 
 its easy to install ansible in linux because linux provides the correct environment better than windows or some x platforms 
+to install ansible the command is sudo apt install ansible 
+
+in ansible we are doing password less authentication so for that we are creating the key or a public key using "ssh-keygen" so it will create a key that is used in password less authentication 
+
+ls /home/ubuntu/.ssh/
+they u will get one private and one publi key we need to share only the public key while we access the other servers 
+for that lets go ls /home/ubuntu/.ssh/id_rsa.pub they u will get the public u need to share that with another srevre
+
+the prerequesite of ansible is password less authentication
+for that for that i created two server in one server i installed ansible and i created target server and what i am doimg is i am i logged into my target server using the ansible server by just few steps that is
+first open the target server in other tab and then 
+ssh-keygen it will create the authorized keys 
+then vim~/.ssh.authorized-keys
+in that paste the key that which is u copied from the ansible server that public key in target server then save it 
+
+go to your ansible server copy the private ip address of the target server the 
+ssh "ip-address" 
+then miracle u will be able to see without any password u logged into the target server
+
+
+
+
+
