@@ -191,7 +191,6 @@ ansible uses python
 supports both windows "winrm"
 linux "ssh"
 
-
 Disadvantages:
 windows has little problem with ansible
 ansible not good with debugging
@@ -202,5 +201,3 @@ push mechanism
 i will write a script i will push that script at a tome into two instances so at a time upadte will be possible through ansible in that i am using in windows
 
 its easy to install ansible in linux because linux provides the correct environment better than windows or some x platforms 
-
-puppet is like we need to pull the ec2 instances they we need to upload into it at once 
