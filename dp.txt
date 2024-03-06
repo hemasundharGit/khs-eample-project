@@ -220,7 +220,7 @@ go to your ansible server copy the private ip address of the target server the
 ssh "ip-address" 
 then miracle u will be able to see without any password u logged into the target server
 
-ansible playbook its like in python we will call python file as like while writing anyscript in ansiblw we will call it as ansible pplaybook 
+ansible playbook its like in python we will call python file as like while writing anyscript in ansiblw we will call it as ansible playbook 
 
 ansible adhoc commands
 
