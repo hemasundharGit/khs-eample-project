@@ -18,3 +18,7 @@ aws cognito users of website uses by mfa,social media login
 lets say we say number of sercurity at one place check there hub,or a group like dashboard or parking 
 
 effectiently and improve process -> opretaional excellence think in the aspect of os (oprating systems)
+
+
+lets say if the question comes in the concept of s3 there u see the options like "amazon macie" then that is the answer in one scenario 
+in another senario there will be galcier , deep archive and soon "
