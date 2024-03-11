@@ -16,3 +16,5 @@ multi factor authentication is provided by (iam) employees of company , mfa supp
 aws cognito users of website uses by mfa,social media login 
 
 lets say we say number of sercurity at one place check there hub,or a group like dashboard or parking 
+
+effectiently and improve process -> opretaional excellence think in the aspect of os (oprating systems)
