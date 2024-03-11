@@ -31,4 +31,8 @@ when comes the topic of gpu to handle heavy workloads we go for "Acclerated comp
 
 while coming to acl its stateless and it allows and starts seeing lowest number and goes to highest number then decide allow or not 
 
+sercuriy group -> state full, service level,allow traffic,
+
+Acl -> state less ,allow and deny traffic, preceding rule numbers,vpc level,
+
 
