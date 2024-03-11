@@ -14,3 +14,5 @@ WAF : web appliacation fire wall, sql injection attacks,bots,ip address blocking
 multi factor authentication is provided by (iam) employees of company , mfa support is taekn by i am credential 
 
 aws cognito users of website uses by mfa,social media login 
+
+lets say we say number of sercurity at one place check there hub,or a group like dashboard or parking 
