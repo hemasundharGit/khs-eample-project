@@ -37,4 +37,6 @@ Acl -> state less ,allow and deny traffic, preceding rule numbers,vpc level,
 
 lets say if the question consits of platform oreinted caf then go for -> date engeering and ci/cd
 
+while it comes to the aws caf there we need to see the answers related to sercurity 
+
 
