@@ -7,3 +7,7 @@ cost optmization -> stop heavy spending
 sustainbility -> long term goals 
 
 lets say if we see that any temporary we need to see the option ( token ) in the option 
+
+sercurity :
+dos,ddos attack : aws sheild 
+WAF : web appliacation fire wall, sql injection attacks,bots,ip address blocking
