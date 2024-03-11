@@ -20,5 +20,10 @@ lets say we say number of sercurity at one place check there hub,or a group like
 effectiently and improve process -> opretaional excellence think in the aspect of os (oprating systems)
 
 
-lets say if the question comes in the concept of s3 there u see the options like "amazon macie" then that is the answer in one scenario 
+lets say if the question comes in the concept of s3 there u see the options like "amazon macie" and analysis machine learning tool is also aamazon maice then that is the answer in one scenario 
 in another senario there will be galcier , deep archive and soon "
+
+lets say there comes any document  otr reports related to security or govennment there the answer as "Aws Artifact"
+
+
+
