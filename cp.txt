@@ -1,0 +1,8 @@
+pillars of aws
+operational excellence -> development,run workloads,small changes ,anticipate failure
+sercurity : iam.,racebility,layers
+relability -> failure recovery , auto scaling (elasticity)
+performance efficiency ->advanced technology 
+cost optmization -> stop heavy spending 
+sustainbility -> long term goals 
+
