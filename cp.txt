@@ -11,3 +11,6 @@ lets say if we see that any temporary we need to see the option ( token ) in the
 sercurity :
 dos,ddos attack : aws sheild 
 WAF : web appliacation fire wall, sql injection attacks,bots,ip address blocking
+multi factor authentication is provided by (iam) employees of company , mfa support is taekn by i am credential 
+
+aws cognito users of website uses by mfa,social media login 
