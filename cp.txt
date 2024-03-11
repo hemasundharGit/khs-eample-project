@@ -29,5 +29,6 @@ lets say i amyone ask the report lije external sefrvivce u go through the "iam c
 
 when comes the topic of gpu to handle heavy workloads we go for "Acclerated computing"
 
+while coming to acl its stateless and it allows and starts seeing lowest number and goes to highest number then decide allow or not 
 
 
