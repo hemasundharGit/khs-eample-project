@@ -25,5 +25,9 @@ in another senario there will be galcier , deep archive and soon "
 
 lets say there comes any document  otr reports related to security or govennment there the answer as "Aws Artifact"
 
+lets say i amyone ask the report lije external sefrvivce u go through the "iam crendital report"
+
+when comes the topic of gpu to handle heavy workloads we go for "Acclerated computing"
+
 
 
