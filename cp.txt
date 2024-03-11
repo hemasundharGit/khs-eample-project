@@ -35,4 +35,6 @@ sercuriy group -> state full, service level,allow traffic,
 
 Acl -> state less ,allow and deny traffic, preceding rule numbers,vpc level,
 
+lets say if the question consits of platform oreinted caf then go for -> date engeering and ci/cd
+
 
