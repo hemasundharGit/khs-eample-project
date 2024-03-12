@@ -166,7 +166,7 @@ salt
 
 but ansible became popular most people use ansible in devops journey 
 
-example of 10 instances
+
 puppet
 pull mechanism model
 master slave architecture
