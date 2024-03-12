@@ -245,3 +245,5 @@ and magic u will see that the devopsclass file os created in the target server
         state: started
 
 
+ ansible-playbook -vvv -i inventory ansible_playbook.yml
+this command is used to see how does the main server using playbook yaml script to do the certain task in the target server
