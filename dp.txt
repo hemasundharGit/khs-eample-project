@@ -229,5 +229,19 @@ ansible -i inventory all or if we have one ip-address name will go for ansible -
 now create a inventory file in the main server and save the private ip address of the atrget server and use the command   ansible -i inventory all -m "shell" -a "touch devopsclass"  enetr this in the main server 
 and magic u will see that the devopsclass file os created in the target server
 
+ ansible-playbook -i inventory ansible_playbook.yml
+---
+- name: Install and start nginx
+  hosts: all
+  become: true
+  tasks:
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: present
+    - name: Start nginx
+      service:
+        name: nginx
+        state: started
 
 
