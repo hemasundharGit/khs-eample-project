@@ -67,7 +67,6 @@ example curll https://github.com/logpai/loghub/blob/master/Android/Android_2k.lo
 wget will download  after download we will get the log file but curl just displays the log file without downloading 
 
 
-
 shell scripting project with github integartion 
 There are Two ways to talk to applications 
 1. Api
@@ -227,7 +226,8 @@ ansible adhoc commands
 lets say inventory file i we have 100's of ip-address and we will store it in inventory file and then we will run 
 ansible -i inventory all or if we have one ip-address name will go for ansible -i inventory "ip-address"
 
-
+now create a inventory file in the main server and save the private ip address of the atrget server and use the command   ansible -i inventory all -m "shell" -a "touch devopsclass"  enetr this in the main server 
+and magic u will see that the devopsclass file os created in the target server
 
 
 
