@@ -1,0 +1,98 @@
+configuration management
+let us take a system admin and an on permises server if i need to update all these 50 servers
+upgrades
+secure patents
+installation
+
+in old days we use scripts for handling this but it becomes complex so to overcome these  
+they moved to cloud the problem becomed very bigger because they created 10x greather than before 
+the concept is configuration management 
+tools like
+puppet
+chef
+ansible
+salt 
+
+but ansible became popular most people use ansible in devops journey 
+
+
+puppet
+pull mechanism model
+master slave architecture
+master is master branch and instances take it as slaves 
+puppet language
+
+
+
+ansible
+push mechanism model
+agent less model 
+password less autentication
+inventory file
+dynamic inventory
+windows,linux
+simple(yaml)language 
+we can write own ansible modules
+ansible galaxy we can share the modules with others
+
+ansible uses python
+supports both windows "winrm"
+linux "ssh"
+
+Disadvantages:
+windows has little problem with ansible
+ansible not good with debugging
+ansible performance is some what slow
+
+managing ec2 instance using ansible 
+push mechanism 
+i will write a script i will push that script at a tome into two instances so at a time upadte will be possible through ansible in that i am using in windows
+
+its easy to install ansible in linux because linux provides the correct environment better than windows or some x platforms 
+to install ansible the command is sudo apt install ansible 
+
+in ansible we are doing password less authentication so for that we are creating the key or a public key using "ssh-keygen" so it will create a key that is used in password less authentication 
+
+ls /home/ubuntu/.ssh/
+they u will get one private and one publi key we need to share only the public key while we access the other servers 
+for that lets go ls /home/ubuntu/.ssh/id_rsa.pub they u will get the public u need to share that with another srevre
+
+the prerequesite of ansible is password less authentication
+for that for that i created two server in one server i installed ansible and i created target server and what i am doimg is i am i logged into my target server using the ansible server by just few steps that is
+first open the target server in other tab and then 
+ssh-keygen it will create the authorized keys 
+then vim~/.ssh.authorized-keys
+in that paste the key that which is u copied from the ansible server that public key in target server then save it 
+
+go to your ansible server copy the private ip address of the target server the 
+ssh "ip-address" 
+then miracle u will be able to see without any password u logged into the target server
+
+ansible playbook its like in python we will call python file as like while writing anyscript in ansiblw we will call it as ansible playbook 
+
+ansible adhoc commands
+
+lets say inventory file i we have 100's of ip-address and we will store it in inventory file and then we will run 
+ansible -i inventory all or if we have one ip-address name will go for ansible -i inventory "ip-address"
+
+now create a inventory file in the main server and save the private ip address of the atrget server and use the command   ansible -i inventory all -m "shell" -a "touch devopsclass"  enetr this in the main server 
+and magic u will see that the devopsclass file os created in the target server
+
+ ansible-playbook -i inventory ansible_playbook.yml
+---
+- name: Install and start nginx
+  hosts: all
+  become: true
+  tasks:
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: present
+    - name: Start nginx
+      service:
+        name: nginx
+        state: started
+
+
+ ansible-playbook -vvv -i inventory ansible_playbook.yml
+this command is used to see how does the main server using playbook yaml script to do the certain task in the target server
