@@ -46,6 +46,8 @@ lets a company want to test and deploy "fast" then they go for Ans : "cloud form
 lets say if the question consits of ci/cd  quickly implement ci/cd pipeline then go for   "aws code star"
 in aws code star lets say we have in pipe line code commit,code build,code deploy and code pipe line these will pre definedly created by "code-star"
 
+lets say in easy crud is "clous trail"
+
 lets if the question consits of outpost the answer is "hybrid"
 
 fully managed graph database then go for "aws neptune"
