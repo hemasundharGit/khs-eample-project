@@ -1,5 +1,8 @@
 when we use teraform 
-lets say a company needs 50 servers u created in a short time developer created it using Aws Cloud Fromation Templates(Aws CAF) but after a period of time they think they need to move to the Azure then u need to transfer all the 50 servers to the Azure 
+lets say a company needs 50 servers u created in a short time developer created it using Aws Cloud Fromation Templates(Aws CAF) but after a period of time they think they need to move to the Azure then u need to transfer all the 50 servers to the Azure using azure resource manager(rm)
 Then the developer Automated  all the servers form Aws to Azure in a normal manner but the problem is the now needs to move to on-premises we can do that using "Heat templates" this is one scenario   here is takes lots of time to do that 
 
 Second Scernario is  we gone to hybrid cloud aws and then automated to azure and then to on-permises to overcome these and to compelete the task in a more efficent way it is using  "Terraform" 
+
+
+Terraform is "Api As a Code"
