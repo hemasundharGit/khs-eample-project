@@ -49,3 +49,5 @@ in aws code star lets say we have in pipe line code commit,code build,code deplo
 lets if the question consits of outpost the answer is "hybrid"
 
 fully managed graph database then go for "aws neptune"
+
+if the questions consists of desktop or laptop then go for "Aws-Workspace"
