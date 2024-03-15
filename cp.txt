@@ -53,3 +53,6 @@ lets if the question consits of outpost the answer is "hybrid"
 fully managed graph database then go for "aws neptune"
 
 if the questions consists of desktop or laptop then go for "Aws-Workspace"
+
+lets say ec2 we will have ebs and efs and ec2 is locally contains of ebs and when will efs when we need to store various files then we will go for efs 
+then if when ec2 is terminated the the answer is "Aws ec2 instance store"
