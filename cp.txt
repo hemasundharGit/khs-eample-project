@@ -41,6 +41,6 @@ while it comes to the aws caf there we need to see the answers related to sercur
 
 legts say u need to migrate the toatal unstructure as a resources to inflight and data need to be encrypted on the move then go for "data sync" 
 
-
+lets a company want to test and deploy "fast" then they go for Ans : "cloud formation"
 
 
