@@ -10,3 +10,7 @@ Terraform is "Api As a Code"
 hashicorp terraform coorporation 
 
 sudo apt=get update,sude apt-get install -y gnupgsoftare-properties-common
+
+terraform init
+  terraform plan 
+   terraform destroy
