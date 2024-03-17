@@ -11,6 +11,39 @@ hashicorp terraform coorporation
 
 sudo apt=get update,sude apt-get install -y gnupgsoftare-properties-common
 
+
+lets say first u need to go throught the documentation of the terrform by haschicorp u need to remember all the things because there are more than 200 services in aws so when ever the interviwer asks this just say i am going through the documentation that is provided by haschicorp to perform all these kind of operations 
+
+lets say create a vm in the ec2 and then i created ubuntu machine then i connected to it then install terraform into it by using  "sudo apt=get update,sude apt-get install -y gnupgsoftare-properties-common"
+   and then create a folder and in that create two sub-folders whenever we are working on terraform we have these both states to update the mnain.tf terraform when we chage the 50 server form aws to azure or some other flatfrom then these folders comes into a place 
+
+then in local create main.tf in that paste the code that is provided by the terraform documenatation and then do "terraform init"   this will intialize the terraform script and then "terraform apply"  then it will execute the code and then the acoording the written code in the code if u written to create ec2 then the ec2 will be created 
+
+main.tf :--
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
+# Configure the AWS Provider
+provider "aws" {
+  region = "us-east-1"
+}
+
+# Create a VPC
+resource "aws_vpc" "example" {
+  cidr_block = "10.0.0.0/16"
+}
+
+
+
+
+
+
 terraform init
   terraform plan 
    terraform destroy
