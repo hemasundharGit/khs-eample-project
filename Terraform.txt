@@ -41,9 +41,21 @@ resource "aws_vpc" "example" {
 
 
 
-
-
-
 terraform init
   terraform plan 
-   terraform destroy
+     terraform apply
+        terraform destroy
+
+for additional information about the output.tf and variables.tf go through the 
+   "https://github.com/futurice/terraform-examples/blob/master/aws/aws_lambda_api/main.tf"
+
+
+now lets had a question like what is output.tf and variables.tf 
+  output.tf in thg=ese we will write about what we are creating through the terraform script that is "main.tf"
+  varibles.tf in these we will take all the variables and we will link it through the main.tf without writing dirctly into main.tf 
+
+
+
+
+
+
