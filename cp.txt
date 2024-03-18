@@ -58,3 +58,5 @@ lets say ec2 we will have ebs and efs and ec2 is locally contains of ebs and whe
 then if when ec2 is terminated the the answer is "Aws ec2 instance store"
 
 when there comes the topic of static in the permesies of hoisting we will go for "s3"
+
+lets say when we need to generate the report in s3 we will go for "aws anthena"
