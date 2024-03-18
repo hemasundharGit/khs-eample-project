@@ -74,4 +74,4 @@ when the topic comes about the edge locations go for "cloudfront" & "global-accl
 
 when coming the concept of fast deployment and less complexcity we will go for "Aws-Beanstalk"
 
-
+lets say Aws Rote53 its like maps to travel or it say the route to the ip addresses or websites
