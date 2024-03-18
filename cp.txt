@@ -77,3 +77,5 @@ when coming the concept of fast deployment and less complexcity we will go for "
 lets say Aws Rote53 its like maps to travel or it say the route to the ip addresses or websites
 
 Aws direct connect = is like private company connection with aws 
+
+network connection between two gateways go for "vpc peering" and "Aws transit gateway"
