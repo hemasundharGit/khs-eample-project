@@ -83,3 +83,5 @@ network connection between two gateways go for "vpc peering" and "Aws transit ga
 "Aws polly" : text to voice 
 
 Aws ligthsail : pre-configured instances used for new devlopers 
+
+AWS Sage maker : ity provides tools to make machine-learning models and with high accuracy
