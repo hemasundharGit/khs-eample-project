@@ -65,3 +65,12 @@ Which AWS feature provides a no-cost platform for AWS users to join community gr
 generated articles about best practices?  for these the sevice is "aws-repost"
 
 lets say in s3 text in document in s3 go for "Aws-Kendra"
+
+lets say "aws-lex" that is used in buliding the interfaces for text and message  
+For example : go for hey google, or alexa chatbot it is used "Aws-Lex" is used in buliding like that chatbots 
+
+when the topic comes about the edge locations go for "cloudfront" & "global-accletaor"
+
+
+
+
