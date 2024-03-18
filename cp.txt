@@ -79,3 +79,7 @@ lets say Aws Rote53 its like maps to travel or it say the route to the ip addres
 Aws direct connect = is like private company connection with aws 
 
 network connection between two gateways go for "vpc peering" and "Aws transit gateway"
+
+"Aws polly" : text to voice 
+
+Aws ligthsail : pre-configured instances used for new devlopers 
