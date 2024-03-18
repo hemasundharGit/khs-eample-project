@@ -63,3 +63,5 @@ lets say when we need to generate the report in s3 we will go for "aws anthena"
 
 Which AWS feature provides a no-cost platform for AWS users to join community groups, ask questions, find answers, and read community-
 generated articles about best practices?  for these the sevice is "aws-repost"
+
+lets say in s3 text in document in s3 go for "Aws-Kendra"
