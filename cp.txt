@@ -72,5 +72,6 @@ For example : go for hey google, or alexa chatbot it is used "Aws-Lex" is used i
 when the topic comes about the edge locations go for "cloudfront" & "global-accletaor"
 
 
+when coming the concept of fast deployment and less complexcity we will go for "Aws-Beanstalk"
 
 
