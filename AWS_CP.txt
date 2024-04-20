@@ -85,3 +85,13 @@ network connection between two gateways go for "vpc peering" and "Aws transit ga
 Aws ligthsail : pre-configured instances used for new devlopers 
 
 AWS Sage maker : ity provides tools to make machine-learning models and with high accuracy
+
+
+
+
+
+Which cloud concept is demonstrated by using AWS Cost Explorer?
+A. Rightsizing
+B. Reliability
+C. Resilience
+D. Modernization
