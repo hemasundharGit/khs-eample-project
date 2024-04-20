@@ -95,3 +95,10 @@ A. Rightsizing
 B. Reliability
 C. Resilience
 D. Modernization
+
+
+Which AWS resource can help a company reduce its costs in exchange for a usage commitment when using Amazon EC2 instances?
+A. Compute Savings Plans
+B. Auto Scaling group
+C. On-Demand Instance
+D. EC2 instance store
