@@ -8,7 +8,7 @@ monitoring
 testing
 
 ----->devops is a process of improving the apppliction delivery by ensuring that there is proper autmation in place quality that maintained continious monitoring
-and finnaly there is continious testing  in place "final goal is to fasten the application delivery"
+and finally there is continious testing  in place "final goal is to fasten the application delivery"
 
 why devops?
  
@@ -18,7 +18,7 @@ why devops?
 hypervisior  physical server logical server cloud 
 
 
-letsus consider aws if i need to create a  vm that is using ec2 so for 1 time its okay if i need to create fo 100 times then we will using api 
+letus consider aws if i need to create a  vm that is using ec2 so for 1 time its okay if i need to create fo 100 times then we will using api 
 which consists of script that make call or communcation with the aws dashboard without opening it   the script will be return by devops engineer
 or sys admin to communicate with api we need to write a script that is aws cli or aws api(boto3) teraform or aws cft by doing this we had reached efficiency 
 and achived devops startegy   ec-2 and teraform  based on iaas and aws has (AWS CDK)    
