@@ -102,3 +102,5 @@ A. Compute Savings Plans
 B. Auto Scaling group
 C. On-Demand Instance
 D. EC2 instance store
+
+
